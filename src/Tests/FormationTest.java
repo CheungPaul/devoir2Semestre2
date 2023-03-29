@@ -29,7 +29,8 @@ class FormationTest
     void getNombreDePresents()
     {
         // Cas n°1 : On ajoute les 2 premiers participants à la formation
-        
+        formation.AjouterParticipant(participant1);
+        formation.AjouterParticipant(participant2);
 
 
         // Cas n°2 : on ajoute le reste des participants
